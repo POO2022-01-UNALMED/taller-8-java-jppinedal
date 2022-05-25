@@ -9,8 +9,7 @@ public class Portero extends Futbolista {
         this.golesRecibidos = golesRecibidos;
         this.dorsal = dorsal;
     }
-    
-
+  
     
     public String toString() {
         return super.toString() + " con el dorsal " + dorsal + ". Le han marcado " + golesRecibidos;
